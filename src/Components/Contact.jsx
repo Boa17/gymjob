@@ -1,0 +1,16 @@
+import React from 'react'
+
+function Contact() {
+ return (
+  <div id='contact'>
+   <form>
+    <input type='text' placeholder='FullNAme' required/>
+     <input type='email' placeholder='Type Your Email' required/>
+     <textarea placeholder='Write Here...' name='message'></textarea>
+     <input type='submit' value='Send'/>
+   </form>
+  </div>
+ )
+}
+
+export default Contact
